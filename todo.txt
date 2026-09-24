@@ -1,4 +1,6 @@
 [ ] Spell to breed animals, speed up babies, excite allays
-[ ] Sleep:
-- make players sleep till the next sun/moonrise
-- clears AI tasks of mobs (temporarily)
+[ ] Spell to change time of day
+[ ] Spell to transmute materials
+  - give each item a transmutational value 
+  - spell to change an entity:item to different item with each step costing an amount of media
+    - likely gonna be entity:item, num (# between this item and the goal), entity:item media stack (base cost + num x some media value)
