@@ -28,33 +28,18 @@ On Fabric, it requires:
 
 [Discord link](https://discord.gg/4xxHGYteWk)
 
-## The Branches
+## Fork Goals
 
-We are currently developing Hexcasting v0.11.x for 1.20.1, on the `main` branch.
+Developed on Hexcasting v0.11.4 for 1.20.1
 
-The 0.10.x versions, for 1.19, are in long-term support. We probably won't be adding any new features, but we will try
-to fix bugs. Those are on the `1.19` branch.
+Goal of this fork of Hexcasting is to implement specific spells and patterns I would like to see within the mod.
 
-The 0.9.x versions, for 1.18.2, are in long-term support. We probably won't be adding any new features, but we will try
-to fix bugs. Those are on the `1.18` branch.
+## Differences
 
-The `gh-pages` branch is for the online Hex book.
-
-Other branches are old detritus from potential features.
-
-## For Developers
-
-We publish artifacts on Maven at [https://maven.blamejared.com/at/petra-k/hexcasting/]. The modern coordinates are at:
-
-> `hexcasting-[PLATFORM]-[MC VERSION]/[MOD VERSION]`
-
-There are some other folders in the `hexcasting` folder from old CI configurations; ignore those, they're stale.
-
-Please only use things in the `at.petrak.hexcasting.api` package. (We do try to keep the API fairly stable, but we don't
-do a very good job.) If you find you need something not in there yell at me on Discord.
+The following spells/patterns have been implemented into this fork:
 
 ## Contributing
 
-Contributions are welcome via pull requests on GitHub. Please [link your PR](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) to any issues that it fixes. Note that if your PR makes many unrelated changes, we may ask you to split it up into several smaller PRs to make it simpler to review. Also, feel free to update the `[UNRELEASED]` section in [CHANGELOG.md](./CHANGELOG.md) to document the changes in your PR (in a human-readable and concise manner, not just copying the commit messages).
+As this is a personal fork of this mod, contributions are welcome, however not guaranteed to be implemented.
 
-Translations are welcome. You can help translate Hex Casting into your language by [visiting our Weblate page](https://weblate.hexxy.media/engage/hexcasting/), or by opening a pull request to manually edit the localization files.
+
